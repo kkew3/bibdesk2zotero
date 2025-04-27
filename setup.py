@@ -13,6 +13,6 @@ setup(
     description = 'convert BibDesk BibTeX files for import into Zotero',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    install_requires = ['pybtex'],
+    install_requires = ['pybtex', 'setuptools>=40.4.3'],
     entry_points = {'console_scripts': ['bibdesk2zotero = bibdesk2zotero:main']},
 )
