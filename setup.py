@@ -11,6 +11,7 @@ setup(
     description='Migration script from BibDesk to Zotero 7',
     long_description=long_description,
     long_description_content_type='text/markdown',
+    license='MIT',
     python_requires='>=3.9',
     install_requires = [
         'bibtexparser<2,>=1.4',
